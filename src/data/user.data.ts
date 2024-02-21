@@ -1,5 +1,6 @@
 import {User} from "../types/user.type";
-export const users: User[] = [
+
+ const users: User[] = [
     {
         id: "1",
         name: "Alice",
@@ -36,3 +37,4 @@ export const users: User[] = [
         password: "password5"
     }
 ];
+export default users;
